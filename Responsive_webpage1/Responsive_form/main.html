@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Capstone_2</title>
+</head>
+<body>
+    <div class="navbar">
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="checkBtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">Mama's Kitchen</label>
+        <i class="fas-solid fa-utensils"></i> 
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section class="all-form">
+    <div class="container">
+        <!-- <div class="header">
+            <h2>Create Account</h2> 
+        </div> -->
+        <form class="form" id="form">
+           
+            <h2>Create Account</h2>
+            <div class="form-control Success" > 
+
+              <label>Username</label> <br>
+              <input type="text" placeholder="Username" id="username" >
+              <i class="fas fa-exclamation-circle"></i> 
+              <i class="fas fa-check-circle"></i>
+              <small>Error Message</small> <br>
+            </div>
+            <div class="form-control Error " >
+
+              <label>Email</label> <br>
+              <input type="text" placeholder="abc@email.com" id="email">
+              <i class="fas fa-exclamation-circle"></i> 
+              <i class="fas fa-check-circle"></i>
+              <small>Error Message</small> <br>
+            </div>
+            <div class="form-control">
+
+              <label>Phone Number</label> <br>
+              <input type="number" placeholder="+234-8012345679" id="phone_number">
+              <i class="fas fa-exclamation-circle"></i> 
+              <i class="fas fa-check-circle"></i>
+              <small>Error Message</small> <br>
+            </div>
+            <div class="form-control">
+
+              <label>Password</label> <br>
+              <input type="password" placeholder="password" id="password">
+              <i class="fas fa-exclamation-circle"></i> 
+              <i class="fas fa-check-circle"></i>
+              <small>Error Message</small> <br>
+            </div>
+            <div class="form-control">
+
+              <label>Confirm Password</label> <br>
+              <input type="password" placeholder="Confirm password" id="confirm_password">
+              <i class="fas fa-exclamation-circle"></i> 
+              <i class="fas fa-check-circle"></i>
+              <small>Error Message</small> <br>
+            </div>
+
+              <label>Gender</label> <br>
+              <input type="radio" name="select" value="Female" id=""><span>Female</span>
+              <input type="radio" name="select" value="Male" id=""><span>Male</span> <br>
+
+              <button>Submit</button>
+
+           
+        </form>
+    </div>
+</section>
+    <!--  
+    <div class="details">
+        <label>Username</label><br><br>
+        <input type="name" name="name" placeholder="Username" class="align" required><br><br>
+        <label>Email</label><br><br>
+        <input type="email" name="email" placeholder="Enter your email address" class="box" required><br><br>            
+        <div class="date">
+        <label>Phone Number</label>  <br><br>
+        <input type="phonenumber" name="phonenumber" pattern="0-9 +-"> <br><br>
+        <label>Password</label>
+        <input type="password">
+        <label>Confirm Password</label>
+        <input type="password">
+        <label >Gender</label>
+        <input type="radio" name="select" value="Female"  id=""><span>Female</span>
+        <input type="radio" name="select" value="Male" id=""><span>Male</span>
+
+
+    </div>
+    
+</body>
+</html>
